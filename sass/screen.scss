@@ -1,0 +1,58 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+/*colors*/
+$testcolor-one: rgba(255, 216, 0, 0.47);
+$testcolor-two: rgba(0, 98, 255, 0.47);
+$testcolor-three: rgba(0, 255, 177, 0.47);
+$testcolor-four: rgba(255, 0, 128, 0.4);
+$testcolor-five: rgba(157, 0, 255, 0.4);
+/*colors*/
+
+body {
+	box-sizing: border-box;
+}
+
+
+.container {
+	/*border: 1px solid blue;*/
+	max-width: 1300px;
+	height: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.container-overflow {
+	overflow: hidden;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - HEADER - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.header {
+	width: 100%;
+	height: 632px;
+	background: #000;
+	
+	/*-- - - - - - - - - - - - SLIDER - - - - - - - - - - - -*/
+	.header-slider {
+		width: 100%;
+		height: 100%;
+
+		.slide {
+			width: 100%;
+			height: 100%;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	/*-- - - - - - - - - - - - END SLIDER - - - - - - - - - - - -*/
+
+
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - END HEADER - - - - - - - - - - - - - - - - - - - - - - - - - - */
