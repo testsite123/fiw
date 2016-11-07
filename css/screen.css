@@ -526,7 +526,7 @@ a {
 /* line 499, ../sass/screen.scss */
 .about .about-workers {
   width: 100%;
-  height: 390px;
+  height: 410px;
   border-bottom: 1px solid #a6876f;
   position: relative;
   margin: 40px 0 45px 0;
@@ -539,17 +539,17 @@ a {
   width: 1px;
   height: 6px;
   background: #a6876f;
-  clear: both;
 }
-/* line 516, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .about .about-workers:before {
   left: 0;
   bottom: -3.5px;
 }
-/* line 521, ../sass/screen.scss */
+/* line 520, ../sass/screen.scss */
 .about .about-workers:after {
   right: 0;
   bottom: -3.5px;
+  clear: both;
 }
 /* line 526, ../sass/screen.scss */
 .about .about-workers .workers-block {

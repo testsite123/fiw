@@ -498,7 +498,7 @@ a {
 
 	.about-workers {
 		width: 100%;
-		height: 390px;
+		height: 410px;
 		border-bottom: 1px solid #a6876f;
 		position: relative;
 		margin: 40px 0 45px 0;
@@ -510,7 +510,6 @@ a {
 			width: 1px;
 			height: 6px;
 			background: #a6876f; 
-			clear: both;
 		}
 		
 		&:before {
@@ -521,6 +520,7 @@ a {
 		&:after {
 			right: 0;
 			bottom: -3.5px;
+			clear: both;
 		}
 
 		.workers-block {
