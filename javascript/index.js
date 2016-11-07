@@ -19,7 +19,7 @@ $(document).ready(function(){
 		}
 	}
 
-	setInterval(changeImage, 5000);
+	// setInterval(changeImage, 5000);
 	// end slider in header
 
 	// header-block margin
