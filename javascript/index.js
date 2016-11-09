@@ -5,7 +5,7 @@ $(document).ready(function(){
 // Header---Header---Header---Header---Header---Header---
 	$(".slider").bxSlider({
 		auto: true,
-		pause: 6000
+		pause: 4000
 	});
 
 
@@ -33,20 +33,32 @@ $(document).ready(function(){
 // Portfolio---Portfolio---Portfolio---Portfolio---Portfolio---
 
 // Services---Services---Services---Services---Services---
+
+	// changing information on click 
 	$(".categories-wrapper").children().click(function(){
-		for (var i = 0; i < $(".categories-description").children().length; i++) {
-			if( $(".categories-description").children().eq(i).hasClass($(this)[0].id + "-description") ) {
-				if ($(".categories-description").children().eq(i).hasClass("description-hidden")) {
-					$(".categories-description").children().eq(i).toggleClass("description-hidden");
+		for (var i = 0; i < $(".categories-description").children().eq(0).children().eq(0).children().length; i++) {
+			if( $(".categories-description").children().eq(0).children().eq(0).children().eq(i).hasClass($(this)[0].id + "-description") ) {
+				if ($(".categories-description").children().eq(0).children().eq(0).children().eq(i).hasClass("description-hidden")) {
+					$(".categories-description").children().eq(0).children().eq(0).children().eq(i).toggleClass("description-hidden");
 				}
 				
 			} else {
-				if ($(".categories-description").children().eq(i).hasClass("description-hidden") !== true) {
-					$(".categories-description").children().eq(i).addClass("description-hidden");
+				if ($(".categories-description").children().eq(0).children().eq(0).children().eq(i).hasClass("description-hidden") !== true) {
+					$(".categories-description").children().eq(0).children().eq(0).children().eq(i).addClass("description-hidden");
 				}
 			}
 		}
+
+		$(".categories-description").children().eq(0).children().eq(0).css("top", 0);
+		$(globalCustomScroll).mCustomScrollbar("update");
+
 	});
+	// changing information on click 
+
+	// styling scroll
+	
+	// styling scroll
+
 // Services---Services---Services---Services---Services---
 
 // Contacts---Contacts---Contacts---Contacts---Contacts---
