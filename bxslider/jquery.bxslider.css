@@ -108,13 +108,13 @@
 .bx-wrapper .bx-prev {
 	left: 10px;
 	background: url(images/controls.png) no-repeat 0 -32px;
-	display: none; /*я прописав*/
+	/*display: none; я прописав*/
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
 	background: url(images/controls.png) no-repeat -43px -32px;
-	display: none; /*я прописав*/
+	/*display: none; я прописав*/
 }
 
 .bx-wrapper .bx-prev:hover {
@@ -126,6 +126,7 @@
 }
 
 .bx-wrapper .bx-controls-direction a {
+	background: red;
 	position: absolute;
 	top: 50%;
 	margin-top: -16px;

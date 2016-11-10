@@ -153,9 +153,22 @@ a {
 			}
 		}
 	}
+
+	.black-line {
+		span {
+			&:after {
+				background: #000;
+			}
+		}
+	}
 }
 /*end containers*/
 
+.bx-controls-direction {
+	.bx-prev, .bx-next {
+		display: none;
+	}
+} 
 
 /*HEADER*/
 .header {
@@ -937,5 +950,9 @@ a {
 	}
 }
 /*END FOOTER*/
+
+/*SECOND PAGE SCSS*/
+@import "portfolio";
+/*END SECOND PAGE SCSS*/
 
 /*MEDIA*/

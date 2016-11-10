@@ -22,13 +22,36 @@ $(document).ready(function(){
 		});
 	// end header-block margin
 
+	// плавний якір
+	$(".menu li").on("click", "a", function(event){
+		event.preventDefault();
+
+		var idMenu = $(this).attr("href")
+		
+		var top = $(idMenu).offset().top;
+
+
+		$("body, html").animate({scrollTop: top}, 1500);
+	});
+	// end плавний якір
+
 // Header---Header---Header---Header---Header---Header---
 
 // Portfolio---Portfolio---Portfolio---Portfolio---Portfolio---
-	$(".portfolio-resizer-text").click(function(){
-		$(".portfolio-resizer").css("display", "none");
-		$(".portfolio").css("height", "100%").css("overflow", "visible").css("padding-bottom", "50px");
+	$(".open-projects").click(function(){
+		$(".portfolio-open-projects").css("display", "none");
+		$(".portfolio").css("height", "100%").css("overflow", "visible");
 		$(window).trigger('resize').trigger('scroll');
+	});
+
+	$(".close-projects").click(function(){
+		$(".portfolio-open-projects").css("display", "block");
+		$(".portfolio").css("height", "1360px").css("overflow", "hidden");
+		$(window).trigger('resize').trigger('scroll');
+
+		$("html, body").animate({
+          	scrollTop: $(".portfolio").offset().top
+    	}, 1500);
 	});
 // Portfolio---Portfolio---Portfolio---Portfolio---Portfolio---
 
