@@ -145,19 +145,19 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 		.bx-controls-direction {
 			.bx-prev, .bx-next {
 				display: block;
+				width: 90px;
+				height: 90px;
+				border-radius: 50%;
 			}
 
 			.bx-prev {
-				background: url('../image/slider-arrows/arrowprev.png') no-repeat;
-				width: 100px;
-				height: 100px;
+				background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../image/slider-arrows/arrowprev.png') 52px 30px no-repeat;
+				left: -5%;
 			}
 
 			.bx-next {
-				background: url('../image/slider-arrows/arrownext.png') no-repeat;
-				width: 100px;
-				height: 100px;
-				right: -8.5%;
+				background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../image/slider-arrows/arrownext.png') 25px 30px no-repeat;
+				right: -5%;
 			}
 		}
 	}
@@ -172,6 +172,7 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 		.portfolio-container-slider {
 			/*background: $testcolor-three;*/
 			/*border: 1px solid blue;*/
+			overflow-x: hidden;
 			height: 100%;
 			width: 59%;
 
@@ -190,9 +191,10 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 
 			.small-pictures	{
 				/*border: 1px solid red;*/
-				width: 100%;
+				width: 101%;
 				height: auto;
 				margin: 8px 0 0 0;
+				text-align: center;
 
 				a  {
 					position: relative;
@@ -260,7 +262,7 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 					width: 7px;
 					height: 1px;
 					background: #a6876f;
-					left: -3.5px;
+					left: -4px;
 				} 
 
 				&:after {
