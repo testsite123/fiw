@@ -53,6 +53,14 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 			}
 		}
 	}
+
+	.white-line {
+		span {
+			&:after {
+				background: #fff;
+			}
+		}
+	}
 }
 
 /*- - - - PORTFOLIO HEADER - - - - -*/
@@ -304,17 +312,10 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 				position: relative;
 
 				&:hover {
-					img {
-						width: 95%;
-						height: 95%;
-						-webkit-transition: all 0.5s;
-						transition: all 0.5s;
-					}
-
-					.mini-img-wrapper-inner {
-						width: 95%;
-						height: 95%;
+					img, .mini-img-wrapper-inner {
 						opacity: 1;
+						width: 95%;
+						height: 95%;
 						-webkit-transition: all 0.5s;
 						transition: all 0.5s;
 					}
