@@ -216,7 +216,7 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 						.img-wrapper-inner {
 							width: 100%;
 							height: 100%;
-							background: rgba(0, 0, 0, .7);
+							background: rgba(0, 0, 0, .6);
 							position: absolute;
 							opacity: 0;
 							top: 50%;
@@ -229,8 +229,8 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 					&:hover {
 						.img-sm-wrapper {
 							img, .img-wrapper-inner {
-								width: 95%;
-								height: 95%;
+								width: 97%;
+								height: 97%;
 								opacity: 1;
 								-webkit-transition: all 0.5s;
 								transition: all 0.5s;
@@ -302,7 +302,6 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 		width: 100%;
 
 		a {
-
 			.mini-img-wrapper {
 				/*border: 1px solid red;*/
 				width: 19.75%;
@@ -314,10 +313,10 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 				&:hover {
 					img, .mini-img-wrapper-inner {
 						opacity: 1;
-						width: 95%;
-						height: 95%;
-						-webkit-transition: all 0.5s;
-						transition: all 0.5s;
+						width: 97%;
+						height: 97%;
+						-webkit-transition: opacity 0.5s, width 0.4s, height 0.4s;
+						transition: opacity 0.5s, width 0.4s, height 0.4s;
 					}
 				}
 
@@ -353,7 +352,7 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 
 						.inner-text-center {
 							width: 170px;
-							top: 95px;
+							top: 35%;
 							position: absolute;
 							text-transform: uppercase;
 							left: 50%;
@@ -365,7 +364,7 @@ $testcolor-five: rgba(157, 0, 255, 0.4);
 						.inner-text-bottom {
 							width: 100%;
 							position: absolute;
-							bottom: 5px;
+							bottom: 20px;
 							text-align: center;
 						}
 					}

@@ -804,7 +804,6 @@ a {
 			/*background: $testcolor-one;*/
 			width: 63%;
 			height: 484px;
-			/*overflow-y: scroll;*/
 			padding: 0 25px 0 17px;
 			position: relative;
 			margin-top: 45px;
@@ -812,8 +811,8 @@ a {
 			.description-wrapper {
 				.description-img {
 					img {
-						width: 100%;
-						height: 400px;
+						width: 75%;
+						/*height: 80%;*/
 					}
 				}
 
@@ -844,14 +843,15 @@ a {
 /*CONTACTS*/
 .contacts {
 	width: 100%;
-	height: 614px;
+	height: 684px;
 	/*background: #fff;*/
 	background: transparent;
 
 	.parallax-layer {
 		width: 100%;
-		height: 614px;
+		height: 684px;
 		background: transparent;
+		position: relative;
 
 		.contact-links {
 			width: 1450px;
@@ -914,85 +914,90 @@ a {
 		.contact-links-margin {
 			margin: 110px auto 0 8%;
 		}
+
+
+		/*FOOTER*/
+		.footer {
+			background: #fff;
+			width: 100%;
+			height: 70px;
+			opacity: 0.8;
+			position: absolute;
+			bottom: 0;
+
+			&:after {
+				content: '';
+				display: block;
+				clear: both;
+				height: 0;
+			}
+
+			.footer-left-side {
+				height: 70px;
+				float: left;
+				margin: 0 0 0 140px;
+				z-index: 9999;
+
+				ul {
+
+					li {
+						display: inline-block;
+						margin-right: 37px;
+						height: 70px;
+						line-height: 70px;
+
+						&:last-child {
+							margin-right: 0;
+						}
+
+						a {
+							color: #565656;
+							font-size: 15.2px;
+							font-family: robotolight;
+							text-transform: uppercase;
+						}
+					}
+				}
+			}
+
+			.footer-right-side {
+				height: 70px;
+				float: right;
+				margin-right: 45px;
+
+				.footer-menu-section {
+					display: inline-block;
+					width: 40px;
+					height: 70px;
+					position: relative;
+
+					.footer-icon-section {
+						width: 35px; 
+						height: 35px;
+						line-height: 33px;
+						border: 1px solid #a6876f;
+						border-radius: 50%;
+						color: #a6876f;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						-webkit-transform: translate(-50%, -50%);
+						transform: translate(-50%, -50%);
+						text-align: center;
+
+						&:hover {
+							border-color: #47240d;
+							color: #47240d;
+							transition: border-color 1s, color 1s;
+						}
+					}
+				}
+			}
+		}
+		/*END FOOTER*/
 	}
 }
 /*END CONTACTS*/
-
-/*FOOTER*/
-.footer {
-	background: #fff;
-	width: 100%;
-	height: 100px;
-
-	&:after {
-		content: '';
-		display: block;
-		clear: both;
-		height: 0;
-	}
-
-	.footer-left-side {
-		height: 100px;
-		float: left;
-		margin: 0 0 0 140px;
-
-		ul {
-
-			li {
-				display: inline-block;
-				margin-right: 37px;
-				height: 100px;
-				line-height: 100px;
-
-				&:last-child {
-					margin-right: 0;
-				}
-
-				a {
-					color: #565656;
-					font-size: 15.2px;
-					font-family: robotolight;
-					text-transform: uppercase;
-				}
-			}
-		}
-	}
-
-	.footer-right-side {
-		height: 100px;
-		float: right;
-		margin-right: 45px;
-
-		.footer-menu-section {
-			display: inline-block;
-			width: 40px;
-			height: 100px;
-			position: relative;
-
-			.footer-icon-section {
-				width: 35px; 
-				height: 35px;
-				line-height: 33px;
-				border: 1px solid #a6876f;
-				border-radius: 50%;
-				color: #a6876f;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				-webkit-transform: translate(-50%, -50%);
-				transform: translate(-50%, -50%);
-				text-align: center;
-
-				&:hover {
-					border-color: #47240d;
-					color: #47240d;
-					transition: border-color 1s, color 1s;
-				}
-			}
-		}
-	}
-}
-/*END FOOTER*/
 
 /*SECOND PAGE SCSS*/
 @import "portfolio";
