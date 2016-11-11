@@ -714,8 +714,8 @@ a {
 
 						.main-icon {
 							opacity: 0;
-							-webkit-transition: opacity 0.4s;
-							transition: opacity 0.4s;
+							-webkit-transition: opacity 0.8s;
+							transition: opacity 0.8s;
 						}
 					}
 
@@ -748,21 +748,6 @@ a {
 							width: 45.5px;
 							opacity: 0;
 						}
-
-
-
-						/*.hover-wrapper {
-							border: 1px solid blue;
-							width: 100%;
-							position: absolute;
-							top: 0;
-							opacity: 0;
-
-							img {
-								width: 45px;
-								vertical-align: middle;
-							}
-						}*/
 					}
 
 					.text-wrapper {

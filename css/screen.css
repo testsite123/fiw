@@ -733,8 +733,8 @@ a {
 /* line 715, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field:hover .main-icon {
   opacity: 0;
-  -webkit-transition: opacity 0.4s;
-  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.8s;
+  transition: opacity 0.8s;
 }
 /* line 722, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .img-wrapper {
@@ -744,18 +744,6 @@ a {
   line-height: 105px;
   text-align: center;
   position: relative;
-  						/*.hover-wrapper {
-  							border: 1px solid blue;
-  							width: 100%;
-  							position: absolute;
-  							top: 0;
-  							opacity: 0;
-  
-  							img {
-  								width: 45px;
-  								vertical-align: middle;
-  							}
-  						}*/
 }
 /* line 730, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .img-wrapper img {
@@ -779,7 +767,7 @@ a {
   width: 45.5px;
   opacity: 0;
 }
-/* line 768, ../sass/screen.scss */
+/* line 753, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper {
   /*border: 1px solid red; */
   width: 80%;
@@ -790,16 +778,16 @@ a {
   text-transform: uppercase;
   color: #fff;
 }
-/* line 778, ../sass/screen.scss */
+/* line 763, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper p {
   width: 80%;
   margin: 0 auto;
 }
-/* line 783, ../sass/screen.scss */
+/* line 768, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper .categories-main-text {
   margin-top: 40px;
 }
-/* line 787, ../sass/screen.scss */
+/* line 772, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper .categories-hover-text {
   border-top: 1px solid #a6876f;
   margin: 20px auto 0 auto;
@@ -807,7 +795,7 @@ a {
   position: relative;
   opacity: 0;
 }
-/* line 794, ../sass/screen.scss */
+/* line 779, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper .categories-hover-text:after, .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper .categories-hover-text:before {
   content: '';
   display: block;
@@ -817,15 +805,15 @@ a {
   position: absolute;
   background: #a6876f;
 }
-/* line 804, ../sass/screen.scss */
+/* line 789, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper .categories-hover-text:after {
   right: 0;
 }
-/* line 808, ../sass/screen.scss */
+/* line 793, ../sass/screen.scss */
 .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper .categories-hover-text:before {
   left: 0;
 }
-/* line 818, ../sass/screen.scss */
+/* line 803, ../sass/screen.scss */
 .services .services-wrapper .categories-description {
   /*background: $testcolor-one;*/
   width: 63%;
@@ -835,17 +823,17 @@ a {
   position: relative;
   margin-top: 45px;
 }
-/* line 829, ../sass/screen.scss */
+/* line 814, ../sass/screen.scss */
 .services .services-wrapper .categories-description .description-wrapper .description-img img {
   width: 100%;
   height: 400px;
 }
-/* line 835, ../sass/screen.scss */
+/* line 820, ../sass/screen.scss */
 .services .services-wrapper .categories-description .description-wrapper .description-text {
   margin-top: 20px;
   width: 100%;
 }
-/* line 839, ../sass/screen.scss */
+/* line 824, ../sass/screen.scss */
 .services .services-wrapper .categories-description .description-wrapper .description-text p {
   font-size: 14.5px;
   font-family: opensanslight;
@@ -853,7 +841,7 @@ a {
   line-height: 35px;
   text-align: justify;
 }
-/* line 849, ../sass/screen.scss */
+/* line 834, ../sass/screen.scss */
 .services .services-wrapper .categories-description .description-hidden {
   display: none;
   visibility: hidden;
@@ -861,26 +849,26 @@ a {
 
 /*SERVICES*/
 /*CONTACTS*/
-/* line 860, ../sass/screen.scss */
+/* line 845, ../sass/screen.scss */
 .contacts {
   width: 100%;
   height: 614px;
   /*background: #fff;*/
   background: transparent;
 }
-/* line 866, ../sass/screen.scss */
+/* line 851, ../sass/screen.scss */
 .contacts .parallax-layer {
   width: 100%;
   height: 614px;
   background: transparent;
 }
-/* line 871, ../sass/screen.scss */
+/* line 856, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links {
   width: 1450px;
   height: 210px;
   margin: 110px 0 0 45px;
 }
-/* line 876, ../sass/screen.scss */
+/* line 861, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .contact-links-section {
   width: 400px;
   height: 100%;
@@ -888,18 +876,18 @@ a {
   margin-right: 45px;
   text-align: center;
 }
-/* line 883, ../sass/screen.scss */
+/* line 868, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .contact-links-section:last-child {
   margin-right: 0;
 }
-/* line 887, ../sass/screen.scss */
+/* line 872, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .contact-links-section .link-img {
   width: 100%;
   height: 115px;
   border-bottom: 1px solid #fff;
   position: relative;
 }
-/* line 893, ../sass/screen.scss */
+/* line 878, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .contact-links-section .link-img:after, .contacts .parallax-layer .contact-links .contact-links-section .link-img:before {
   position: absolute;
   content: '';
@@ -909,87 +897,87 @@ a {
   background: #fff;
   bottom: -3.5px;
 }
-/* line 903, ../sass/screen.scss */
+/* line 888, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .contact-links-section .link-img:after {
   left: 0;
 }
-/* line 907, ../sass/screen.scss */
+/* line 892, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .contact-links-section .link-img:before {
   right: 0;
 }
-/* line 912, ../sass/screen.scss */
+/* line 897, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .contact-links-section .link-info {
   margin-top: 37px;
 }
-/* line 915, ../sass/screen.scss */
+/* line 900, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .contact-links-section .link-info p {
   font-size: 20.45px;
   font-family: opensanslight;
   color: #fff;
   margin: 15px 0 0 0;
 }
-/* line 924, ../sass/screen.scss */
+/* line 909, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links .section-margin {
   margin-right: 60px;
 }
-/* line 929, ../sass/screen.scss */
+/* line 914, ../sass/screen.scss */
 .contacts .parallax-layer .contact-links-margin {
   margin: 110px auto 0 8%;
 }
 
 /*END CONTACTS*/
 /*FOOTER*/
-/* line 937, ../sass/screen.scss */
+/* line 922, ../sass/screen.scss */
 .footer {
   background: #fff;
   width: 100%;
   height: 100px;
 }
-/* line 942, ../sass/screen.scss */
+/* line 927, ../sass/screen.scss */
 .footer:after {
   content: '';
   display: block;
   clear: both;
   height: 0;
 }
-/* line 949, ../sass/screen.scss */
+/* line 934, ../sass/screen.scss */
 .footer .footer-left-side {
   height: 100px;
   float: left;
   margin: 0 0 0 140px;
 }
-/* line 956, ../sass/screen.scss */
+/* line 941, ../sass/screen.scss */
 .footer .footer-left-side ul li {
   display: inline-block;
   margin-right: 37px;
   height: 100px;
   line-height: 100px;
 }
-/* line 962, ../sass/screen.scss */
+/* line 947, ../sass/screen.scss */
 .footer .footer-left-side ul li:last-child {
   margin-right: 0;
 }
-/* line 966, ../sass/screen.scss */
+/* line 951, ../sass/screen.scss */
 .footer .footer-left-side ul li a {
   color: #565656;
   font-size: 15.2px;
   font-family: robotolight;
   text-transform: uppercase;
 }
-/* line 976, ../sass/screen.scss */
+/* line 961, ../sass/screen.scss */
 .footer .footer-right-side {
   height: 100px;
   float: right;
   margin-right: 45px;
 }
-/* line 981, ../sass/screen.scss */
+/* line 966, ../sass/screen.scss */
 .footer .footer-right-side .footer-menu-section {
   display: inline-block;
   width: 40px;
   height: 100px;
   position: relative;
 }
-/* line 987, ../sass/screen.scss */
+/* line 972, ../sass/screen.scss */
 .footer .footer-right-side .footer-menu-section .footer-icon-section {
   width: 35px;
   height: 35px;
@@ -1004,7 +992,7 @@ a {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-/* line 1001, ../sass/screen.scss */
+/* line 986, ../sass/screen.scss */
 .footer .footer-right-side .footer-menu-section .footer-icon-section:hover {
   border-color: #47240d;
   color: #47240d;
