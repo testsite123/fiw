@@ -1754,4 +1754,208 @@ a {
 
   /*- - - - - END CONTACTS - - - - -*/
 }
+@media only screen and (max-width: 1080px) {
+  /*- - - - -HEADER - - - - -*/
+  /* line 1446, ../sass/screen.scss */
+  .header {
+    /*header-menu*/
+    /*end header-menu*/
+  }
+  /* line 1447, ../sass/screen.scss */
+  .header .header-text {
+    top: 40%;
+    left: -160px;
+  }
+  /* line 1451, ../sass/screen.scss */
+  .header .header-text p {
+    font-size: 12.5px;
+  }
+  /* line 1456, ../sass/screen.scss */
+  .header .header-social {
+    right: 50px;
+    top: 35%;
+  }
+  /* line 1463, ../sass/screen.scss */
+  .header .header-social .menu-social .menu-social-wrapper a .header-social-wrapper {
+    width: 31px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 100%;
+  }
+  /* line 1469, ../sass/screen.scss */
+  .header .header-social .menu-social .menu-social-wrapper a .header-social-wrapper:hover {
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 105%;
+  }
+  /* line 1482, ../sass/screen.scss */
+  .header .header-block {
+    width: 100%;
+    height: 100%;
+    margin-left: -50%;
+  }
+  /* line 1488, ../sass/screen.scss */
+  .header .header-block .header-block-wrapper .header-menu {
+    max-width: 750px;
+  }
+  /* line 1491, ../sass/screen.scss */
+  .header .header-block .header-block-wrapper .header-menu ul.menu li a {
+    font-size: 12.5px;
+  }
+
+  /*- - - - -END HEADER - - - - -*/
+  /*- - - - - PORTFOLIO - - - - -*/
+  /* line 1504, ../sass/screen.scss */
+  .portfolio .portfolio-block-wrapper {
+    padding: 0 0 0 6%;
+  }
+  /* line 1507, ../sass/screen.scss */
+  .portfolio .portfolio-block-wrapper .portfolio-block {
+    width: 47%;
+    height: 360px;
+  }
+
+  /*- - - - - END PORTFOLIO - - - - -*/
+  /*- - - - - ABOUT - - - - -*/
+  /* line 1518, ../sass/screen.scss */
+  .about .about-text {
+    width: 740px;
+  }
+  /* line 1521, ../sass/screen.scss */
+  .about .about-text p.main-text {
+    font-size: 16px;
+    line-height: 33px;
+  }
+  /* line 1526, ../sass/screen.scss */
+  .about .about-text span {
+    font-size: 16.3px;
+  }
+  /* line 1531, ../sass/screen.scss */
+  .about .about-workers {
+    height: 370px;
+    width: 96%;
+    margin: 70px auto 40px auto;
+  }
+  /* line 1536, ../sass/screen.scss */
+  .about .about-workers .workers-block {
+    height: 350px;
+  }
+  /* line 1539, ../sass/screen.scss */
+  .about .about-workers .workers-block .workers-hover-block .center-text {
+    margin: 36px auto 0 auto;
+  }
+  /* line 1542, ../sass/screen.scss */
+  .about .about-workers .workers-block .workers-hover-block .center-text .mini-text {
+    margin-top: 18px;
+    font-size: 12px;
+    line-height: 23.5px;
+  }
+  /* line 1549, ../sass/screen.scss */
+  .about .about-workers .workers-block .workers-hover-block .mini-topic {
+    font-size: 16px;
+  }
+  /* line 1555, ../sass/screen.scss */
+  .about .about-workers .worker-third {
+    background-position: -65px 0;
+  }
+  /* line 1559, ../sass/screen.scss */
+  .about .about-workers .worker-fourth {
+    background-position: -70px 0;
+  }
+
+  /*- - - - - END ABOUT - - - - -*/
+  /*- - - - - SERVICES - - - - -*/
+  /* line 1567, ../sass/screen.scss */
+  .services {
+    min-height: 730px;
+  }
+  /* line 1570, ../sass/screen.scss */
+  .services .services-wrapper {
+    width: 93%;
+    margin: 0 auto;
+  }
+  /* line 1574, ../sass/screen.scss */
+  .services .services-wrapper .categories {
+    width: 31%;
+  }
+  /* line 1582, ../sass/screen.scss */
+  .services .services-wrapper .categories .categories-wrapper .categories-field .img-wrapper .main-icon {
+    width: 34px;
+  }
+  /* line 1586, ../sass/screen.scss */
+  .services .services-wrapper .categories .categories-wrapper .categories-field .img-wrapper .hover-icon {
+    width: 36.5px;
+  }
+  /* line 1590, ../sass/screen.scss */
+  .services .services-wrapper .categories .categories-wrapper .categories-field .img-wrapper .build-icon {
+    width: 42px;
+  }
+  /* line 1595, ../sass/screen.scss */
+  .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper {
+    font-size: 16px;
+  }
+  /* line 1598, ../sass/screen.scss */
+  .services .services-wrapper .categories .categories-wrapper .categories-field .text-wrapper .categories-main-text {
+    margin-top: 45px;
+  }
+  /* line 1606, ../sass/screen.scss */
+  .services .services-wrapper .categories-description {
+    width: 67%;
+  }
+  /* line 1612, ../sass/screen.scss */
+  .services .services-wrapper .categories-description .description-wrapper .description-img img {
+    height: auto;
+  }
+  /* line 1619, ../sass/screen.scss */
+  .services .services-wrapper .categories-description .description-wrapper .description-text p {
+    font-size: 13.5px;
+  }
+
+  /*- - - - - END SERVICES - - - - -*/
+  /*- - - - - CONTACTS - - - - -*/
+  /* line 1631, ../sass/screen.scss */
+  .contacts .parallax-layer {
+    /*FOOTER*/
+    /*END FOOTER*/
+  }
+  /* line 1632, ../sass/screen.scss */
+  .contacts .parallax-layer .contact-links {
+    max-width: 850px;
+    margin: 110px auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  /* line 1642, ../sass/screen.scss */
+  .contacts .parallax-layer .contact-links .contact-links-section {
+    width: 340px;
+    margin-right: 35px;
+  }
+  /* line 1647, ../sass/screen.scss */
+  .contacts .parallax-layer .contact-links .contact-links-section .link-info p {
+    font-size: 18px;
+  }
+  /* line 1655, ../sass/screen.scss */
+  .contacts .parallax-layer .footer .footer-left-side {
+    margin-left: 40px;
+  }
+  /* line 1658, ../sass/screen.scss */
+  .contacts .parallax-layer .footer .footer-left-side ul li {
+    margin-right: 25px;
+  }
+  /* line 1661, ../sass/screen.scss */
+  .contacts .parallax-layer .footer .footer-left-side ul li a {
+    font-size: 11.5px;
+  }
+  /* line 1667, ../sass/screen.scss */
+  .contacts .parallax-layer .footer .footer-right-side {
+    margin-right: 40px;
+  }
+
+  /*- - - - - END CONTACTS - - - - -*/
+}
 /*END MEDIA*/
