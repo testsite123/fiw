@@ -23,7 +23,7 @@ $(document).ready(function(){
 	// end header-block margin
 
 	// плавний якір
-	$(".menu li").on("click", "a", function(event){
+	$(".menu li, .footer-menu li").on("click", "a", function(event){
 		event.preventDefault();
 
 		var idMenu = $(this).attr("href")
@@ -36,17 +36,17 @@ $(document).ready(function(){
 	// end плавний якір
 
 // Header---Header---Header---Header---Header---Header---
-
+	
 // Portfolio---Portfolio---Portfolio---Portfolio---Portfolio---
 	$(".open-projects").click(function(){
 		$(".portfolio-open-projects").css("display", "none");
-		$(".portfolio").css("height", "100%").css("overflow", "visible");
+		$(".portfolio-block-hidden, .resizer-hidden").css("display", "block");
 		$(window).trigger('resize').trigger('scroll');
 	});
 
 	$(".close-projects").click(function(){
 		$(".portfolio-open-projects").css("display", "block");
-		$(".portfolio").css("height", "1360px").css("overflow", "hidden");
+		$(".portfolio-block-hidden, .resizer-hidden").css("display", "none");
 		$(window).trigger('resize').trigger('scroll');
 
 		$("html, body").animate({
@@ -78,15 +78,17 @@ $(document).ready(function(){
 	});
 	// changing information on click 
 
-	// styling scroll
-	
-	// styling scroll
-
 // Services---Services---Services---Services---Services---
 
 // Contacts---Contacts---Contacts---Contacts---Contacts---
 	$(".parallax-layer").parallax({
 		imageSrc: 'image/parallax/parallax.png'
+	});
+
+	$(window).on('resize', function(){
+	    if(screen.height === window.innerHeight){
+	      document.location.reload(true);
+	    }
 	});
 // Contacts---Contacts---Contacts---Contacts---Contacts---
 });
