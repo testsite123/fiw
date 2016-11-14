@@ -836,8 +836,8 @@ a {
 }
 /* line 825, ../sass/screen.scss */
 .services .services-wrapper .categories-description .description-wrapper .description-img img {
-  width: 75%;
-  /*height: 80%;*/
+  width: 100%;
+  height: 375px;
 }
 /* line 831, ../sass/screen.scss */
 .services .services-wrapper .categories-description .description-wrapper .description-text {
